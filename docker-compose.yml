@@ -1,0 +1,5 @@
+services:
+  webserver:
+    image: ghcr.io/ilhamellyanawa/nginx-ilhamellya
+    ports:
+      - "8080:80"
